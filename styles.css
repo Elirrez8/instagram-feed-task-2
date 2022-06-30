@@ -1,0 +1,48 @@
+body{
+    background-color: gainsboro;
+
+}
+
+.d-flex{
+        display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+#titular{
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;   
+
+}
+#content{
+    align-items: center;
+}
+.titular-post{
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+}
+.titular-post h3{
+    display:inline
+}
+.post{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.post p {
+    padding:5px;
+}
+
+.extra{
+    position:absolute;
+    margin: 10px 0px 0px 900px;   
+}
